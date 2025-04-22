@@ -1,0 +1,230 @@
+@charset "UTF-8";
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,1.00);
+}
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    background-color: #000000;
+}
+header {
+    background-color: rgba(0,0,0,1.00);
+}
+nav {
+    background-color: rgba(0,0,0,1.00);
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+ul a li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 16px 24px;
+    color: rgba(249,246,243,1.00);
+    font-family: scheherazade;
+    font-style: normal;
+    font-variant: small-caps;
+}
+ul a li:hover {
+    background-color: rgba(132,0,1,1.00);
+	transition-duration: 0.4s;
+}
+footer {
+    color: rgba(75,75,75,1.00);
+    font-family: Arvo;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+main {
+    width: 1366px;
+    height: 1024px;
+}
+#home {
+    color: rgba(255,0,4,1.00);
+    font-family: scheherazade;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 100px;
+    text-align: center;
+    position: static;
+    margin-top: 14px;
+    line-height: 250px;
+    background-image: url(Mother-mother-home.png);
+	background-repeat: no-repeat;
+    background-attachment:center;
+	background-size:cover;
+}
+
+#news {
+    background-image: url(Mother-mother-news.png);
+    margin-top: -20px;
+    background-repeat: no-repeat;
+    background-attachment: center;
+	background-size:cover;
+}
+.newsp {
+    color: rgba(255,255,255,1.00);
+    font-family: Arvo;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: 320px;
+    text-indent: 565px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+#tours {
+    margin-top: 14px;
+    background-image: url("Mother-mother-tours.png");
+    background-repeat: no-repeat;
+    background-attachment: center;
+	background-size:cover;
+}
+.order {
+    background-color: rgba(249,246,243,1.00);
+    border: none;
+    color: rgba(0,0,0,1.00);
+    padding-top: 11px;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-bottom: 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 250px;
+    margin-top: 866px;
+    margin-left: 265px;
+}
+.order:hover {
+    background-color: rgba(0,0,0,1.00);
+    transition-duration: 0.2s;
+    color: rgba(255,255,255,1.00);
+}
+#store {
+    margin-top: 14px;
+    background-image: url("Mother-mother-store.png");
+    background-repeat: no-repeat;
+    background-attachment: center;
+	background-size:cover;
+}
+#videos {
+    margin-top: 14px;
+    background-image: url("Mother-mother-videos.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size:100px 100px;
+}
+iframe {
+    margin-top: 150px;
+    margin-left: 160px;
+    margin-bottom: 150px;
+    margin-right: -160px;
+}
+#gallery {
+    margin-top: 14px;
+    background-image: url(Mother-mother-videos.png);
+    background-repeat: no-repeat;
+    background-size:100px 100px;
+    background-attachment: fixed;
+}
+.slideshow-container {
+    background-image: url(url);
+    padding-top: 95px;
+    padding-left: 185px;
+    padding-right: 185px;
+    padding-bottom: 0px;
+}
+#mailings {
+    margin-top: 14px;
+    background-image: url("mm-mailings.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: center;
+}
+.hiddenh2 {
+}
+
+form {
+    border: 4px solid rgba(0,0,0,1.00);
+    padding-top: 512px;
+}
+
+.container {
+    padding: 20px;
+    background-color: rgba(0,0,0,1.00);
+    color: rgba(249,246,243,1.00);
+    text-align: center;
+	font-family:Arvo;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: rgba(0,0,0,1.00);
+}
+.label {
+    color: rgba(0,0,0,1.00);
+}
+
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: rgba(249,246,243,1.00);
+  color: rgba(0,0,0,1.00);
+  border: none;
+}
+
+input[type=submit]:hover {
+	background-color: rgba(130,3,3,1.00);
+    color: rgba(255,255,255,1.00);
+}
+#merch {
+    margin-top: 14px;
+    background-image: url("Mother-mother-merch.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:center;
+}
+#blog {
+    margin-top: 14px;
+    background-image: url("mm-blog.jpg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: center;
+}
+#privacy {
+    margin-top: 14px;
+    background-image: url(Mother-mother-videos.png);
+    background-repeat: no-repeat;
+    background-size:100px 100px;
+    background-attachment: fixed;
+}
+.privacy1 {
+    color: rgba(157,157,157,1.00);
+    padding-top: 42px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+.privacy2 {
+    font-size: 45px;
+    text-decoration: underline;
+    text-align: center;
+}
